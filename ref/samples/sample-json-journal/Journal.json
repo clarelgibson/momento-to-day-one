@@ -1,0 +1,96 @@
+{
+"metadata" : {
+  "version" : "1.0"
+},
+"entries" : [
+{
+  "uuid" : "658DE4CD658B4238B49EAE8CBC02D4D3",
+  "creationDevice" : "MacBook Air",
+  "creationDeviceModel" : "Mac16,13",
+  "isPinned" : false,
+  "creationDeviceType" : "MacBook Air",
+  "creationOSVersion" : "15.3.2",
+  "modifiedDate" : "2025-04-05T07:41:46Z",
+  "photos" : [
+    {
+      "fileSize" : 1706141,
+      "location" : {
+        "region" : {
+          "center" : {
+            "longitude" : -0.79342836141586304,
+            "latitude" : 51.216331481933594
+          },
+          "identifier" : "<+51.21633148,-0.79342836> radius 0.00",
+          "radius" : 0
+        },
+        "localityName" : "Farnham",
+        "country" : "United Kingdom",
+        "timeZoneName" : "Europe\/London",
+        "administrativeArea" : "England",
+        "longitude" : -0.79342836141586304,
+        "placeName" : "KC Health & Beauty",
+        "latitude" : 51.216331481933594
+      },
+      "lensModel" : "iPhone 13 Pro back dual camera 9mm f\/2.8",
+      "orderInEntry" : 0,
+      "creationDevice" : "MacBook Air",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "Apple",
+      "type" : "jpeg",
+      "lensMake" : "Apple",
+      "identifier" : "8D39899245A5404EA4FABB4205C3B4FE",
+      "date" : "2025-03-24T16:29:56Z",
+      "exposureBiasValue" : 0,
+      "height" : 4032,
+      "fnumber" : "2.8",
+      "width" : 3024,
+      "md5" : "ddfacb80d6f5b1e586fa9bb7c329b8bb",
+      "isSketch" : false,
+      "focalLength" : "9",
+      "cameraModel" : "iPhone 13 Pro"
+    }
+  ],
+  "creationOSName" : "macOS",
+  "starred" : false,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -0.79352068901062012,
+        "latitude" : 51.216026306152344
+      },
+      "radius" : 75
+    },
+    "localityName" : "Farnham",
+    "country" : "United Kingdom",
+    "timeZoneName" : "Europe\/London",
+    "administrativeArea" : "England",
+    "longitude" : -0.79352068901062012,
+    "placeName" : "Farnham Leisure Centre",
+    "latitude" : 51.216026306152344
+  },
+  "creationDate" : "2025-03-24T16:29:56Z",
+  "isAllDay" : false,
+  "timeZone" : "Europe\/London",
+  "editingTime" : 81.211977958679199,
+  "weather" : {
+    "moonPhaseCode" : "waning-crescent",
+    "weatherCode" : "partly-cloudy",
+    "weatherServiceName" : "WeatherKit",
+    "temperatureCelsius" : 11.996864318847656,
+    "windBearing" : 116,
+    "sunriseDate" : "2025-03-24T05:56:30Z",
+    "conditionsDescription" : "Partly Cloudy",
+    "pressureMB" : 1019.3615112304688,
+    "moonPhase" : 0.87,
+    "visibilityKM" : 30.418718338012695,
+    "relativeHumidity" : 69,
+    "windSpeedKPH" : 0.48058149218559265,
+    "sunsetDate" : "2025-03-24T18:23:28Z"
+  },
+  "text" : "# Proud gymnast\nRowan was so proud to get his orange medal at gymnastics tonight\\. After the Easter holidays he will be moving up to the next group\\. He feels a little anxious about it but I think he is looking forward to advancing his skills\\.\n\n![](dayone-moment:\/\/8D39899245A5404EA4FABB4205C3B4FE)\n\nAlan and I both think he looks a lot like Uncle Dan in this photo\\.",
+  "duration" : 0,
+  "authorName" : "Clare Gibson",
+  "richText" : "{\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":\"09F5B9AF-B934-41F0-AB8A-B67856AD5A8B\"}},\"text\":\"Proud gymnast\\n\"},{\"attributes\":{\"line\":{\"header\":0,\"identifier\":\"7D6DCE27-58F7-4C9D-92FE-FF786225D5D9\"}},\"text\":\"Rowan was so proud to get his orange medal at gymnastics tonight. After the Easter holidays he will be moving up to the next group. He feels a little anxious about it but I think he is looking forward to advancing his skills.\"},{\"embeddedObjects\":[{\"identifier\":\"8D39899245A5404EA4FABB4205C3B4FE\",\"type\":\"photo\"}]},{\"text\":\"Alan and I both think he looks a lot like Uncle Dan in this photo.\"}],\"meta\":{\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":2602},\"small-lines-removed\":true,\"version\":1}}"
+}
+]}
