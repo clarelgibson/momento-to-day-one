@@ -6,6 +6,7 @@
 
 library(tidyverse)
 library(here)
+library(parsedate)
 
 # Read in Momento data ----------------------------------------------------
 
@@ -35,13 +36,12 @@ momento_labelled <- momento_data |>
       str_detect(value, "\\d{2}:\\d{2}") ~ "Time",
       str_detect(value, "^Events:") ~ "Event",
       str_detect(value, "^Media:") ~ "Media",
-      str_detect(value, "^[a-zA-Z]+:") ~ "Tag",
+      str_detect(value, "^At:") ~ "At",
+      str_detect(value, "^With:") ~ "With",
       TRUE ~ "Text"
     )
-  )
-
-# Initialize new columns with NA
-momento_labelled <- momento_labelled |> 
+  ) |> 
+  # Initialise new columns with NA
   mutate(
     date = NA,
     time = NA
@@ -51,7 +51,8 @@ momento_labelled <- momento_labelled |>
 current_date <- NA
 current_time <- NA
 
-# Iterate through the data frame to assign dates and times to "Text" entries
+# Iterate through the data frame to assign dates, times and media to "Text"
+# entries
 for (i in 1:nrow(momento_labelled)) {
   if (momento_labelled$label[i] == "Date") {
     current_date <- momento_labelled$value[i]
@@ -67,4 +68,41 @@ for (i in 1:nrow(momento_labelled)) {
 momento_csv <- momento_labelled |> 
   # Remove the date and time labels since we now have date and time stored in
   # columns
-  filter(!(label %in% c("Date", "Time")))
+  filter(!(label %in% c("Date", "Time"))) |> 
+  # Create a new column to store the date and time
+  mutate(datetime = dmy_hm(paste0(date, time))) |> 
+  mutate(datetime = format(with_tz(datetime, "UTC"), "%Y-%m-%dT%H:%M:%S.000Z")) |> 
+  # rename columns in line with Day One import requirements
+  select(date = datetime, text = value, tag = label) |> 
+  # add columns to store media details
+  mutate(
+    media = case_when(
+      tag == "Media" ~ text,
+      TRUE ~ NA
+    )
+  ) |> 
+  group_by(date) |> 
+  mutate(media = first(media, na_rm = TRUE)) |> 
+  # keep only items with tag == "Text"
+  filter(tag == "Text") |> 
+  select(!tag) |> 
+  # create one single record for each instance of date
+  group_by(date) |> 
+  summarise(
+    text = paste(text, collapse = "\n"),
+    media = first(media, na_rm = TRUE)
+  )
+
+# Split the data frame into entries with and without media
+momento_no_media <- 
+  momento_csv |> 
+  filter(is.na(media)) |> 
+  select(date, text)
+
+momento_media <- 
+  momento_csv |> 
+  filter(!is.na(media))
+
+# Export data -------------------------------------------------------------
+
+write_csv(momento_no_media, here("data/cln/export.csv"))
