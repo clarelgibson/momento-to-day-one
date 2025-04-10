@@ -105,4 +105,6 @@ momento_media <-
 
 # Export data -------------------------------------------------------------
 
-write_csv(momento_no_media, here("data/cln/export.csv"))
+export <- momento_no_media
+
+write_csv(export, here("data/cln/export.csv"))
