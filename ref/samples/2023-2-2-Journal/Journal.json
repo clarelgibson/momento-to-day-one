@@ -1,0 +1,647 @@
+{
+"metadata" : {
+  "version" : "1.0"
+},
+"entries" : [
+{
+  "weather" : {
+    "sunsetDate" : "1970-01-01T00:00:00Z",
+    "weatherCode" : "clear",
+    "weatherServiceName" : "Forecast.io",
+    "temperatureCelsius" : 32,
+    "windBearing" : 298,
+    "sunriseDate" : "1970-01-01T00:00:00Z",
+    "conditionsDescription" : "Clear",
+    "pressureMB" : 1012.5,
+    "moonPhase" : 0,
+    "visibilityKM" : 16.090000152587891,
+    "relativeHumidity" : 10,
+    "windSpeedKPH" : 13.579999923706055,
+    "windChillCelsius" : 0
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":569}},\"contents\":[{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"10D3D8CCDC964B8A88251D26546C55BF\"}]},{\"attributes\":{\"line\":{\"header\":1,\"identifier\":null}},\"text\":\"Summer produce is the best. Love the taste and colors—a sensual feast.\"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"9EBF54660E1A40F4B02680EA7A038038\"},{\"type\":\"photo\",\"identifier\":\"E6D5E1679E8E4E2794356FD7A53E20D1\"}]},{\"text\":\"Combine the food with the other features of the season—sunshine, green-grass-barefoot picnics, ultimate frisbee matches, running and playing with a dog, etc.—and it's pretty much perfection. ♥️\"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"673309D527E049DC99FF3C872CBBCB9E\"},{\"type\":\"photo\",\"identifier\":\"B22B0B24878942909D2E0CBBF61F043E\"}]}]}",
+  "creationDate" : "2016-07-23T22:06:56Z",
+  "modifiedDate" : "2020-12-01T17:00:26Z",
+  "editingTime" : 0,
+  "uuid" : "5E2B69750D5248378592CC8DAE174009",
+  "creationDeviceType" : "MacBook Pro",
+  "timeZone" : "America\/Denver",
+  "photos" : [
+    {
+      "orderInEntry" : 1,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "NIKON CORPORATION",
+      "type" : "jpeg",
+      "identifier" : "E6D5E1679E8E4E2794356FD7A53E20D1",
+      "date" : "2016-06-13T15:59:56Z",
+      "exposureBiasValue" : 0,
+      "height" : 1413,
+      "fnumber" : "1.8",
+      "width" : 2100,
+      "md5" : "6616389e060132f40eac72e43876c105",
+      "isSketch" : false,
+      "focalLength" : "50",
+      "cameraModel" : "NIKON D3200"
+    },
+    {
+      "lensModel" : "35.0 mm f\/1.8",
+      "orderInEntry" : 2,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "NIKON CORPORATION",
+      "type" : "jpeg",
+      "identifier" : "673309D527E049DC99FF3C872CBBCB9E",
+      "date" : "2015-08-19T02:19:44Z",
+      "exposureBiasValue" : 0.66666668653488159,
+      "height" : 1405,
+      "fnumber" : "1.8",
+      "width" : 2101,
+      "md5" : "8f91a4196cef9590b0557444bfb286e1",
+      "isSketch" : false,
+      "focalLength" : "35",
+      "cameraModel" : "NIKON D3200"
+    },
+    {
+      "lensModel" : "28-100mm F1.8-4.9",
+      "orderInEntry" : 3,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "SONY",
+      "type" : "jpeg",
+      "identifier" : "B22B0B24878942909D2E0CBBF61F043E",
+      "date" : "2016-07-31T02:26:07Z",
+      "exposureBiasValue" : 0,
+      "height" : 1400,
+      "fnumber" : "4.5",
+      "width" : 2100,
+      "md5" : "d980df374e99094b1a0350044c805d06",
+      "isSketch" : false,
+      "focalLength" : "10.91",
+      "cameraModel" : "DSC-RX100"
+    },
+    {
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "10D3D8CCDC964B8A88251D26546C55BF",
+      "date" : "2020-04-16T21:05:10Z",
+      "height" : 1400,
+      "fnumber" : "(null)",
+      "width" : 2100,
+      "md5" : "7ce7cc696fd61e155cfd6e02da743c6f",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    }
+  ],
+  "starred" : true,
+  "creationDeviceModel" : "MacBookPro16,1",
+  "creationDevice" : "Adam’s Apple (7+)",
+  "creationOSVersion" : "10.16",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -111.5093994140625,
+        "latitude" : 40.660358428955078
+      },
+      "radius" : 75
+    },
+    "localityName" : "Park City",
+    "country" : "United States",
+    "longitude" : -111.5093994140625,
+    "administrativeArea" : "UT",
+    "placeName" : "Park City",
+    "latitude" : 40.660358428955078
+  },
+  "tags" : [
+    "Twitter",
+    "diary",
+    "New Tag",
+    "Daily Prompt",
+    "Pizza",
+    "Food",
+    "Facebook",
+    "Test"
+  ],
+  "duration" : 0,
+  "isPinned" : false,
+  "creationOSName" : "macOS",
+  "isAllDay" : false,
+  "text" : "![](dayone-moment:\/\/10D3D8CCDC964B8A88251D26546C55BF)\n\n# Summer produce is the best\\. Love the taste and colors—a sensual feast\\.\n\n![](dayone-moment:\/\/9EBF54660E1A40F4B02680EA7A038038)\n\n![](dayone-moment:\/\/E6D5E1679E8E4E2794356FD7A53E20D1)\n\nCombine the food with the other features of the season—sunshine, green\\-grass\\-barefoot picnics, ultimate frisbee matches, running and playing with a dog, etc\\.—and it's pretty much perfection\\. ♥️\n\n![](dayone-moment:\/\/673309D527E049DC99FF3C872CBBCB9E)\n\n![](dayone-moment:\/\/B22B0B24878942909D2E0CBBF61F043E)"
+},
+{
+  "weather" : {
+    "sunsetDate" : "1970-01-01T00:00:00Z",
+    "weatherCode" : "clear",
+    "weatherServiceName" : "Forecast.io",
+    "temperatureCelsius" : 17,
+    "windBearing" : 221,
+    "sunriseDate" : "1970-01-01T00:00:00Z",
+    "conditionsDescription" : "Clear",
+    "pressureMB" : 1013.280029296875,
+    "moonPhase" : 0,
+    "visibilityKM" : 0,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 14.420000076293945,
+    "windChillCelsius" : 0
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":556}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":null}},\"text\":\"I neeeeeeeed Italian food. Need. I took this shot before I ate this food. Amazing.\"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"2A69239A5B364348AC64FA7758C2151B\"}]},{\"text\":\"So good. Definitely coming here again.\"}]}",
+  "creationDate" : "2016-08-14T00:02:10Z",
+  "modifiedDate" : "2020-12-01T17:00:26Z",
+  "editingTime" : 0,
+  "uuid" : "B5E7D8644B844E2BB6059608A17A3184",
+  "creationDeviceType" : "MacBook Pro",
+  "timeZone" : "America\/Los_Angeles",
+  "photos" : [
+    {
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "2A69239A5B364348AC64FA7758C2151B",
+      "date" : "2020-04-16T19:47:00Z",
+      "height" : 2100,
+      "fnumber" : "(null)",
+      "width" : 1681,
+      "md5" : "59449d7d7ff984cde4641a612bc42716",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    }
+  ],
+  "starred" : false,
+  "creationDeviceModel" : "MacBookPro16,1",
+  "creationDevice" : "Adam’s Apple (7+)",
+  "creationOSVersion" : "10.16",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -122.41190338134766,
+        "latitude" : 37.801738739013672
+      },
+      "radius" : 75
+    },
+    "localityName" : "San Francisco",
+    "country" : "United States",
+    "longitude" : -122.41190338134766,
+    "administrativeArea" : "CA",
+    "placeName" : "Italian Homemade Company",
+    "latitude" : 37.801738739013672
+  },
+  "tags" : [
+    "Twitter",
+    "diary",
+    "New Tag",
+    "Daily Prompt",
+    "Pizza",
+    "Food",
+    "Facebook",
+    "Test"
+  ],
+  "duration" : 0,
+  "isPinned" : false,
+  "creationOSName" : "macOS",
+  "isAllDay" : false,
+  "text" : "# I neeeeeeeed Italian food\\. Need\\. I took this shot before I ate this food\\. Amazing\\.\n\n![](dayone-moment:\/\/2A69239A5B364348AC64FA7758C2151B)\n\nSo good\\. Definitely coming here again\\."
+},
+{
+  "weather" : {
+    "moonPhaseCode" : "new",
+    "temperatureCelsius" : 24,
+    "weatherServiceName" : "Forecast.io",
+    "windBearing" : 293,
+    "conditionsDescription" : "Mostly Cloudy",
+    "pressureMB" : 1015.8499755859375,
+    "moonPhase" : 0.029999999999999999,
+    "visibilityKM" : 15.076000213623047,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 6.5,
+    "weatherCode" : "partly-cloudy"
+  },
+  "creationDate" : "2019-08-30T23:02:33Z",
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-mac\",\"version\":1095}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":null}},\"text\":\"salt & straw\\n\"},{\"text\":\"Interesting ice cream. New age flavors like: \\n\"},{\"attributes\":{\"line\":{\"indentLevel\":1,\"listStyle\":\"bulleted\",\"identifier\":null}},\"text\":\"Strawberry honey balsamic with black pepper\\n\"},{\"attributes\":{\"line\":{\"indentLevel\":1,\"listStyle\":\"bulleted\",\"identifier\":null}},\"text\":\"Olive Oil\\n\"},{\"attributes\":{\"line\":{\"indentLevel\":1,\"listStyle\":\"bulleted\",\"identifier\":null}},\"text\":\"IPA ice cream. Seriously. Tasted like a frozen IPA. \\n\"},{\"text\":\"\\n\"},{\"text\":\"This is the blondie with their salted caramel ice cream. They make all their ice cream with butter fat and it is pretty delicious. \"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"77979A628ADB4F0A9213CD540AF3863E\"}]},{\"text\":\"\\n\"}]}",
+  "modifiedDate" : "2020-12-17T22:54:44Z",
+  "userActivity" : {
+    "activityName" : "Walking",
+    "stepCount" : 4464
+  },
+  "uuid" : "2D8D04CA8CBD4E778E66E74B2EE28860",
+  "creationDeviceType" : "iPhone",
+  "sourceString" : "visit-775C735B-6412-41DE-A77F-A1D8E264E488",
+  "photos" : [
+    {
+      "lensModel" : "iPhone XS back dual camera 4.25mm f\/1.8",
+      "location" : {
+        "region" : {
+          "center" : {
+            "longitude" : -122.6305921,
+            "latitude" : 45.504929199999999
+          },
+          "identifier" : "<+45.50492920,-122.63059210> radius 70.71",
+          "radius" : 70.714797716440756
+        },
+        "localityName" : "Portland",
+        "country" : "United States",
+        "timeZoneName" : "America\/Los_Angeles",
+        "administrativeArea" : "OR",
+        "longitude" : -122.63053131103516,
+        "placeName" : "3345 SE Division St",
+        "latitude" : 45.504798889160156
+      },
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "Apple",
+      "type" : "jpeg",
+      "lensMake" : "Apple",
+      "identifier" : "77979A628ADB4F0A9213CD540AF3863E",
+      "date" : "2019-08-30T23:02:33Z",
+      "exposureBiasValue" : 0,
+      "height" : 4032,
+      "fnumber" : "1.8",
+      "width" : 3024,
+      "md5" : "ced8e8a6bc70e90e7dd103ad7139dbf5",
+      "isSketch" : false,
+      "focalLength" : "4.25",
+      "cameraModel" : "iPhone XS"
+    }
+  ],
+  "starred" : false,
+  "creationDeviceModel" : "iPhone11,2",
+  "creationDevice" : "Adam’s  iPhone XS",
+  "timeZone" : "America\/Los_Angeles",
+  "creationOSVersion" : "13.1",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -122.63053131103516,
+        "latitude" : 45.504798889160156
+      },
+      "radius" : 75
+    },
+    "localityName" : "Portland",
+    "country" : "United States",
+    "longitude" : -122.63053131103516,
+    "administrativeArea" : "OR",
+    "placeName" : "3330 SE Division St",
+    "latitude" : 45.504798889160156
+  },
+  "isPinned" : false,
+  "tags" : [
+    "Facebook",
+    "TEST",
+    "Daily Prompt",
+    "Twitter"
+  ],
+  "duration" : 0,
+  "creationOSName" : "iOS",
+  "isAllDay" : false,
+  "text" : "# salt & straw\nInteresting ice cream\\. New age flavors like: \n- Strawberry honey balsamic with black pepper\n- Olive Oil\n- IPA ice cream\\. Seriously\\. Tasted like a frozen IPA\\. \n\nThis is the blondie with their salted caramel ice cream\\. They make all their ice cream with butter fat and it is pretty delicious\\.\n\n![](dayone-moment:\/\/77979A628ADB4F0A9213CD540AF3863E)"
+},
+{
+  "sourceString" : "visit-3883546D-BFB9-457C-A961-54FCB9174997",
+  "weather" : {
+    "temperatureCelsius" : 9.9499998092651367,
+    "weatherServiceName" : "Forecast.io",
+    "windBearing" : 11,
+    "conditionsDescription" : "Possible Drizzle",
+    "pressureMB" : 1010.0999755859375,
+    "visibilityKM" : 13.930000305175781,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 6.5199999809265137,
+    "weatherCode" : "rain",
+    "windChillCelsius" : 0
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":2327}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":\"69A1E03C-335B-4115-9144-8978CD8807AE\"}},\"text\":\"Trip to New York\\n\"},{\"text\":\"We had a great time in New York sampling the sights, sounds, and tastes of the \\\"city that never sleeps.\\\" Lovely, lovely, lovely.\\n\\nThep was really cool and nice. \"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"86D2F472026C4DA48A1FF751D60E52E4\"},{\"type\":\"photo\",\"identifier\":\"E1D6BC6292D04C569E7A0E8ABF228AD3\"}]}]}",
+  "uuid" : "750FDEBAC93B46ACB2F8B9489B878C7B",
+  "creationDate" : "2020-05-08T16:34:46Z",
+  "duration" : 0,
+  "isAllDay" : false,
+  "text" : "# Trip to New York\nWe had a great time in New York sampling the sights, sounds, and tastes of the \"city that never sleeps\\.\" Lovely, lovely, lovely\\.\n\nThep was really cool and nice\\.\n\n![](dayone-moment:\/\/86D2F472026C4DA48A1FF751D60E52E4)\n\n![](dayone-moment:\/\/E1D6BC6292D04C569E7A0E8ABF228AD3)",
+  "starred" : false,
+  "tags" : [
+    "Pizza",
+    "diary",
+    "Travel",
+    "Food",
+    "New Tag"
+  ],
+  "userActivity" : {
+    "activityName" : "Stationary",
+    "stepCount" : 413
+  },
+  "modifiedDate" : "2022-11-17T21:17:36Z",
+  "photos" : [
+    {
+      "orderInEntry" : 1,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "E1D6BC6292D04C569E7A0E8ABF228AD3",
+      "date" : "2020-08-27T22:04:48Z",
+      "height" : 2100,
+      "fnumber" : "(null)",
+      "width" : 1400,
+      "md5" : "a016c7f903eba208050e1b74b7a43c1f",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    },
+    {
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "86D2F472026C4DA48A1FF751D60E52E4",
+      "date" : "2020-08-27T22:07:57Z",
+      "height" : 2100,
+      "fnumber" : "(null)",
+      "width" : 1400,
+      "md5" : "fd12cb5bd2ca6c18cdffaf2d6868d841",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    }
+  ],
+  "timeZone" : "America\/Boise",
+  "editingTime" : 128.69114601612091,
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -73.965606689453125,
+        "latitude" : 40.782421112060547
+      },
+      "radius" : 75
+    },
+    "localityName" : "New York",
+    "country" : "United States",
+    "longitude" : -73.965606689453125,
+    "administrativeArea" : "NY",
+    "placeName" : "Central Park",
+    "latitude" : 40.782421112060547
+  },
+  "isPinned" : false,
+  "creationDevice" : "Adam’s Apple (7+)"
+},
+{
+  "sourceString" : "visit-3883546D-BFB9-457C-A961-54FCB9174997",
+  "weather" : {
+    "moonPhaseCode" : "full",
+    "weatherCode" : "rain",
+    "weatherServiceName" : "Forecast.io",
+    "temperatureCelsius" : 9.9499998092651367,
+    "windBearing" : 11,
+    "conditionsDescription" : "Possible Drizzle",
+    "pressureMB" : 1010.0999755859375,
+    "moonPhase" : 0.56000000000000005,
+    "visibilityKM" : 13.930000305175781,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 6.5199999809265137,
+    "windChillCelsius" : 0
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":823}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":\"455D4362-4258-47E4-86FD-39432999CA31\"}},\"text\":\"Trip to New York\\n\"},{\"text\":\"We had a great time in New York sampling the sights, sounds, and tastes of the \\\"city that never sleeps.\\\" \"},{\"attributes\":{\"italic\":true},\"text\":\"Lovely\"},{\"text\":\", lovely, \"},{\"attributes\":{\"bold\":true},\"text\":\"lovely\"},{\"text\":\". \\n\"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"CE7FB5A8FBA34CAA9BEE7B871A6CDA1C\"}]},{\"text\":\"\\n\"}]}",
+  "uuid" : "64DC22C0CA224EA2B4D2F620B4345B72",
+  "creationOSVersion" : "10.16",
+  "creationDate" : "2020-05-08T16:34:46Z",
+  "isAllDay" : false,
+  "creationDeviceType" : "MacBook Pro",
+  "duration" : 0,
+  "starred" : false,
+  "text" : "# Trip to New York\nWe had a great time in New York sampling the sights, sounds, and tastes of the \"city that never sleeps\\.\" ​*Lovely*​, lovely, ​**lovely**​\\. \n\n![](dayone-moment:\/\/CE7FB5A8FBA34CAA9BEE7B871A6CDA1C)",
+  "tags" : [
+    "Twitter",
+    "diary",
+    "Daily Prompt",
+    "Pizza",
+    "Testing",
+    "Travel",
+    "Facebook"
+  ],
+  "modifiedDate" : "2022-08-24T22:23:46Z",
+  "timeZone" : "America\/Boise",
+  "photos" : [
+    {
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "CE7FB5A8FBA34CAA9BEE7B871A6CDA1C",
+      "date" : "2020-04-16T20:13:11Z",
+      "height" : 2100,
+      "fnumber" : "(null)",
+      "width" : 1400,
+      "md5" : "fd12cb5bd2ca6c18cdffaf2d6868d841",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    }
+  ],
+  "editingTime" : 21.090674877166748,
+  "creationDeviceModel" : "MacBookPro16,1",
+  "creationOSName" : "macOS",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -73.965606689453125,
+        "latitude" : 40.782421112060547
+      },
+      "radius" : 75
+    },
+    "localityName" : "New York",
+    "country" : "United States",
+    "longitude" : -73.965606689453125,
+    "administrativeArea" : "NY",
+    "placeName" : "Central Park",
+    "latitude" : 40.782421112060547
+  },
+  "isPinned" : false,
+  "creationDevice" : "Adam’s Apple (7+)"
+},
+{
+  "sourceString" : "visit-D19462B2-7D54-46BA-B1CB-F085960983BB",
+  "weather" : {
+    "moonPhaseCode" : "waxing-crescent",
+    "weatherCode" : "cloudy-night",
+    "weatherServiceName" : "Forecast.io",
+    "temperatureCelsius" : 14.579999923706055,
+    "windBearing" : 108,
+    "conditionsDescription" : "Mostly Cloudy",
+    "pressureMB" : 1034.4000244140625,
+    "moonPhase" : 0.13,
+    "visibilityKM" : 16.093000411987305,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 5.4499998092651367,
+    "windChillCelsius" : 0
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-mac\",\"version\":1405}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":\"50014907-FC4E-496B-B2EB-37FDFF894D52\"}},\"text\":\"Here are some aerial shots from Rich's plane. Loved the fly over the town center. Such a unique view of the area.\"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"A71B9108630345DC93BBFED2323EFC19\"},{\"type\":\"photo\",\"identifier\":\"3C79D002217B4F269F6582DA16DE858F\"}]},{\"text\":\"\\n\\t\"}]}",
+  "uuid" : "E53E0FEDD2DC4B5C84637258140A1447",
+  "creationOSVersion" : "10.16",
+  "duration" : 0,
+  "isAllDay" : false,
+  "creationDeviceType" : "MacBook Pro",
+  "creationDate" : "2020-05-26T21:59:37Z",
+  "starred" : true,
+  "text" : "# Here are some aerial shots from Rich's plane\\. Loved the fly over the town center\\. Such a unique view of the area\\.\n\n![](dayone-moment:\/\/A71B9108630345DC93BBFED2323EFC19)\n\n![](dayone-moment:\/\/3C79D002217B4F269F6582DA16DE858F)",
+  "tags" : [
+    "Twitter",
+    "diary",
+    "Daily Prompt",
+    "Pizza",
+    "Testing",
+    "Flying",
+    "Facebook",
+    "Test"
+  ],
+  "userActivity" : {
+    "activityName" : "Stationary",
+    "stepCount" : 725
+  },
+  "modifiedDate" : "2022-07-21T14:20:50Z",
+  "timeZone" : "Europe\/Berlin",
+  "photos" : [
+    {
+      "orderInEntry" : 1,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "3C79D002217B4F269F6582DA16DE858F",
+      "date" : "2020-08-27T22:07:57Z",
+      "height" : 2100,
+      "fnumber" : "(null)",
+      "width" : 1400,
+      "md5" : "fd12cb5bd2ca6c18cdffaf2d6868d841",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    },
+    {
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "type" : "jpeg",
+      "identifier" : "A71B9108630345DC93BBFED2323EFC19",
+      "date" : "2020-04-16T19:35:31Z",
+      "height" : 1575,
+      "fnumber" : "(null)",
+      "width" : 2100,
+      "md5" : "7d45deb1163e01076ff11fdde620ddcc",
+      "isSketch" : false,
+      "focalLength" : "(null)"
+    }
+  ],
+  "editingTime" : 89.134850025177002,
+  "creationDeviceModel" : "MacBookPro16,1",
+  "creationOSName" : "macOS",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : 7.0133299827575684,
+        "latitude" : 51.458320617675781
+      },
+      "radius" : 75
+    },
+    "localityName" : "Essen",
+    "country" : "Germany",
+    "longitude" : 7.0133299827575684,
+    "administrativeArea" : "North Rhine-Westphalia",
+    "placeName" : "Viva Holzfeuerpizza",
+    "latitude" : 51.458320617675781
+  },
+  "creationDevice" : "Adam’s Apple (7+)",
+  "isPinned" : false
+},
+{
+  "weather" : {
+    "moonPhaseCode" : "new",
+    "temperatureCelsius" : -0.25,
+    "weatherServiceName" : "Forecast.io",
+    "windBearing" : 281,
+    "conditionsDescription" : "Flurries",
+    "pressureMB" : 1016.7000122070312,
+    "moonPhase" : 0.95999999999999996,
+    "visibilityKM" : 13.291999816894531,
+    "relativeHumidity" : 0,
+    "windSpeedKPH" : 7.179999828338623,
+    "weatherCode" : "snow"
+  },
+  "richText" : "{\"meta\":{\"version\":1,\"small-lines-removed\":true,\"created\":{\"platform\":\"com.bloombuilt.dayone-ios\",\"version\":791}},\"contents\":[{\"attributes\":{\"line\":{\"header\":1,\"identifier\":\"22D27586-38E0-4A6D-952C-86CA189019A3\"}},\"text\":\"Today I am grateful for the sunshine. \\n\"},{\"attributes\":{\"line\":{\"header\":0,\"identifier\":\"309D0588-0429-4FFA-B160-6251FC17A81C\"}},\"text\":\"Testing the lag on this and it looks fine. \"},{\"embeddedObjects\":[{\"type\":\"photo\",\"identifier\":\"CA9AC5EB8BB943F295DEECE0A7A5C1A3\"}]},{\"text\":\"Undo: tap 3 fingers on the screen testingto bring up a menu at the top. Testing\\n\"},{\"attributes\":{\"line\":{\"checked\":false,\"listStyle\":\"checkbox\",\"indentLevel\":1,\"identifier\":\"3DBEBEEE-6932-470F-A301-E84ED3F02320\"}},\"text\":\"Test\\n\"},{\"attributes\":{\"line\":{\"checked\":false,\"listStyle\":\"checkbox\",\"indentLevel\":1,\"identifier\":\"E636DFEF-FCE1-49E4-9487-BE06F91EA4AA\"}},\"text\":\"Test\\n\"},{\"attributes\":{\"line\":{\"checked\":false,\"listStyle\":\"checkbox\",\"indentLevel\":1,\"identifier\":\"9B0E60E8-FC54-447A-8F68-6E3ED998E221\"}},\"text\":\"Test\"},{\"embeddedObjects\":[{\"type\":\"horizontalRuleLine\"}]},{\"attributes\":{\"highlightedColor\":\"ffc107cc\"},\"text\":\"testing\"},{\"text\":\" \"}]}",
+  "creationDate" : "2021-03-11T18:24:07Z",
+  "editingTime" : 236.12990570068359,
+  "modifiedDate" : "2021-07-16T16:11:19Z",
+  "uuid" : "19DE4D34CF924D8FB56ACA5B834B3E35",
+  "creationDeviceType" : "Macintosh",
+  "sourceString" : "visit-94EA3066-F908-496F-A380-C7B03778381C",
+  "photos" : [
+    {
+      "lensModel" : "iPhone 12 Pro Max back triple camera 1.54mm f\/2.4",
+      "location" : {
+        "region" : {
+          "center" : {
+            "longitude" : -111.91532897949219,
+            "latitude" : 40.63751220703125
+          },
+          "identifier" : "<+40.63751221,-111.91532898> radius 70.67",
+          "radius" : 70.674657192016895
+        },
+        "localityName" : "Murray",
+        "country" : "United States",
+        "timeZoneName" : "America\/Denver",
+        "administrativeArea" : "UT",
+        "longitude" : -111.91532897949219,
+        "placeName" : "846 W 6140 S",
+        "latitude" : 40.63751220703125
+      },
+      "orderInEntry" : 0,
+      "creationDevice" : "Adam’s MacBook Pro",
+      "duration" : 0,
+      "favorite" : false,
+      "cameraMake" : "Apple",
+      "type" : "jpeg",
+      "lensMake" : "Apple",
+      "identifier" : "CA9AC5EB8BB943F295DEECE0A7A5C1A3",
+      "date" : "2021-02-07T20:07:42Z",
+      "exposureBiasValue" : 0,
+      "height" : 3024,
+      "fnumber" : "2.4",
+      "width" : 4032,
+      "md5" : "0e2d16db35b89f9880ee5b3441659d54",
+      "isSketch" : false,
+      "focalLength" : "1.54",
+      "cameraModel" : "iPhone 12 Pro Max"
+    }
+  ],
+  "starred" : false,
+  "creationDeviceModel" : "MacBookPro16,1",
+  "timeZone" : "America\/Denver",
+  "creationDevice" : "Adam’s MacBook Pro",
+  "creationOSVersion" : "11.3",
+  "location" : {
+    "region" : {
+      "center" : {
+        "longitude" : -111.28281402587891,
+        "latitude" : 40.641815185546875
+      },
+      "radius" : 75
+    },
+    "localityName" : "Kamas",
+    "country" : "United States",
+    "timeZoneName" : "America\/Denver",
+    "administrativeArea" : "UT",
+    "longitude" : -111.28281402587891,
+    "placeName" : "86 W 100 S",
+    "latitude" : 40.641815185546875
+  },
+  "creationOSName" : "macOS",
+  "duration" : 0,
+  "isPinned" : false,
+  "isAllDay" : false,
+  "text" : "# Today I am grateful for the sunshine\\. \nTesting the lag on this and it looks fine\\.\n\n![](dayone-moment:\/\/CA9AC5EB8BB943F295DEECE0A7A5C1A3)\n\nUndo: tap 3 fingers on the screen testingto bring up a menu at the top\\. Testing\n- [ ] Test\n- [ ] Test\n- [ ] Test\n\n---\n\ntesting"
+}
+]}
