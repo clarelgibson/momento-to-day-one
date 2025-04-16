@@ -12,9 +12,24 @@ Before you run any code, you will need to export the data you wish to transfer f
 
 Using this tool requires familiarity with running R and python scripts. It is recommended to run the scripts within an R project (e.g. using RStudio).
 
-1.  Clone the repo
+### 1. Clone the repo
 
-    ``` bash
-    # Clone with SSH
-    $ git clone git@github.com:clarelgibson/momento-to-day-one.git
-    ```
+Clone this repo to your local working directory.
+
+``` bash
+# Clone with SSH
+$ git clone git@github.com:clarelgibson/momento-to-day-one.git
+```
+
+### 2. Gather the Momento data
+
+-   Place your exported Momento text (.txt) files into directory `data/input/`
+-   Place yout exported Moment media (.jpg and .mp4) files into directory `data/input/photos`
+
+### 3. Run the code
+
+Run `code/momento-to-day-one.R`. This script sources the other scripts in the correct order. The output of this script will be placed into `data/output`.
+
+## Acknowledgements
+
+- [Alan Gibson](https://github.com/a-gibson) for support with the python scripts to prepare the JSON filesx

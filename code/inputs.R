@@ -5,7 +5,7 @@ text_dir <- here("data/input")
 text <- read_text_as_tibble(text_dir)
 
 # JPEG metadata
-media_dir <- here("data/input/attachments")
+media_dir <- here("data/input/photos")
 media <- read_media_metadata(
   dir = media_dir,
   tags = c("FileName", "FileType", "Duration", "Make", "CreateDate",
