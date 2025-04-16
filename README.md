@@ -32,4 +32,4 @@ Run `code/momento-to-day-one.R`. This script sources the other scripts in the co
 
 ## Acknowledgements
 
-- [Alan Gibson](https://github.com/a-gibson) for support with the python scripts to prepare the JSON filesx
+- [Alan Gibson](https://github.com/a-gibson) for support with the python scripts to prepare the JSON files.
