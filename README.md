@@ -24,7 +24,7 @@ $ git clone git@github.com:clarelgibson/momento-to-day-one.git
 ### 2. Gather the Momento data
 
 -   Place your exported Momento text (.txt) files into directory `data/input/`
--   Place yout exported Moment media (.jpg and .mp4) files into directory `data/input/photos`
+-   Place your exported Moment media (.jpg and .mp4) files into directory `data/input/photos/`
 
 ### 3. Run the code
 
@@ -32,4 +32,4 @@ Run `code/momento-to-day-one.R`. This script sources the other scripts in the co
 
 ## Acknowledgements
 
-- [Alan Gibson](https://github.com/a-gibson) for support with the python scripts to prepare the JSON files.
+-   [Alan Gibson](https://github.com/a-gibson) for support with the python scripts to prepare the JSON files.
