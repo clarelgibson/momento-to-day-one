@@ -275,3 +275,16 @@ join_geo_to_text <- function(joined_df, geo_df) {
   
   return(df_structured)
 }
+
+create_csv_import <- function(df) {
+  # Takes structured tibble created using join_geo_to_text() and returns
+  # a tibble in the required format for a CSV import into Day One
+  
+  csv <- df |> 
+    select(
+      date = entries_creationDate,
+      text = entries_text
+    )
+  
+  return(csv)
+}

@@ -16,3 +16,6 @@ geo <-
 
 # Add geo data to table
 momento <- join_geo_to_text(text_and_media, geo)
+
+# Create format for CSV import
+momento_csv <- create_csv_import(momento)
