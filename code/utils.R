@@ -126,7 +126,7 @@ make_momento_structured <- function(df) {
     group_by(date, time, label) |> 
     summarise(
       source_file = first(source_file),
-      value = paste(value, collapse = "\n")
+      value = paste(value, collapse = " ")
     ) |> 
     ungroup() |> 
     
@@ -140,7 +140,7 @@ make_momento_structured <- function(df) {
     
     # Keep only one media value per entry
     mutate(
-      media = str_split_i(media, "\n", 1)
+      media = str_split_i(media, " ", 1)
     ) |> 
     
     # Create a new column to merge date and time into datetime
@@ -287,4 +287,62 @@ create_csv_import <- function(df) {
     )
   
   return(csv)
+}
+
+create_cli_import <- function(df, journal) {
+  # Takes a structured tibble created using join_geo_to_text() and returns
+  # a tibble containing only the fields needed for CLI import in the correct
+  # format
+  
+  # Define special characters to be escaped
+  special_chars <- c("#", "&", "*", "(", ")", "\"", "'", "|", "<", ">", "?", ";")
+  
+  # Create a named vector with each special character mapped to its escaped version
+  escape_map <- set_names(paste0("\\", special_chars), special_chars)
+  
+  cli <- df |> 
+    # select columns
+    select(
+      isoDate = entries_creationDate,
+      attachment = source_media,
+      text = entries_text,
+      coords_lat = entries_location_latitude,
+      coords_long = entries_location_longitude
+    ) |> 
+    # combine lat and long into single column
+     unite(
+       col = "coordinate",
+       starts_with("coords"),
+       sep = " ",
+       na.rm = TRUE
+     ) |> 
+    mutate(
+      # use the correct ISO date format for CLI
+      isoDate = str_remove(isoDate, "\\.0{3}"),
+      # escape special characters
+      text = str_replace_all(text, fixed(escape_map)),
+      # replace blank coordinates with NA
+      coordinate = ifelse(coordinate == "",NA,coordinate),
+      # create command string for CLI
+      command = paste0(
+        "dayone2 -j ",
+        journal,
+        " --isoDate ",
+        isoDate,
+        ifelse(
+          is.na(attachment),
+          "",
+          paste0(" -a ~/Projects/github/momento-to-day-one/data/input/photos/", attachment)
+        ),
+        ifelse(
+          is.na(coordinate),
+          "",
+          paste0(" -coordinate ", coordinate)
+        ),
+        " -- new ",
+        text
+      )
+    )
+  
+  return(cli)
 }

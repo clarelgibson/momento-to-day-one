@@ -10,3 +10,9 @@ write_csv(
   here("data/output/momento_structured_media.csv"),
   na = ""
 )
+
+# Create a Bash script
+bash_file <- here("data/output/run_dayone_commands.sh")
+
+write_lines("#!/bin/bash\n\n", bash_file)
+write_lines(commands, bash_file, append = TRUE)
